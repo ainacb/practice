@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>A Simple JavaScript Function</h2>
+
+    <button id="myButton">Say Hello</button>
+
+    <script>
+      function helloWorld() {
+        alert("Hello World!");
+      }
+      function changeColor() {
+        document.getElementById("myButton").style.backgroundColor = "blue";
+      }
+
+      document.getElementById("myButton").addEventListener("click", helloWorld);
+      document
+        .getElementById("myButton")
+        .addEventListener("click", changeColor);
+    </script>
+  </body>
+</html>
